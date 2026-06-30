@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.word-display {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+.word-display .letter {
+  width: 28px;
+  margin-bottom: 40px;
+  border-bottom: 3px solid black;
+  text-transform: uppercase;
+}
+
+.word-display .letter.guesses {
+  border-color: transparent;
+  margin: -40px 0 35px;
+}
+
+.game-box h4 {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.keyboard button {
+  color: white;
+  background-color: rgb(97, 160, 206);
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 7px;
+  width: calc(11.1111111111% - 5px);
+}
+
+.keyboard button:hover {
+  background: rgb(120, 172, 210);
+}
+
+/*# sourceMappingURL=style.css.map */
