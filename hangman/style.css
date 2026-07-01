@@ -10,6 +10,7 @@ body {
   display: flex;
   gap: 10px;
   list-style: none;
+  justify-content: center;
 }
 
 .word-display .letter {
